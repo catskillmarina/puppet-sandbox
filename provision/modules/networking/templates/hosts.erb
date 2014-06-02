@@ -2,8 +2,10 @@
 127.0.1.1       <%= @fqdn %>
 
 172.16.32.10 puppet.<%= @domain %> puppet
-172.16.32.11 client1.<%= @domain %> client1
-172.16.32.12 client2.<%= @domain %> client2
+172.16.32.11 introducer.<%= @domain %> introducer
+172.16.32.12 storage0.<%= @domain %> storage0
+172.16.32.13 client.<%= @domain %> client
+172.16.32.14 helper.<%= @domain %> helper
 
 # The following lines are desirable for IPv6 capable hosts
 # ::1     localhost ip6-localhost ip6-loopback

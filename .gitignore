@@ -1,3 +1,2 @@
-nodes.pp
-modules/*
+modules/tahoe/
 .vagrant
